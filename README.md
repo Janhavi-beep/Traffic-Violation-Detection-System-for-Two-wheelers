@@ -95,4 +95,6 @@ Detects more than 2 people on bike.
 
 ### 👩‍💻 Contributor
 - Janhavi Deshmukh
+- Shreeya Bhalwatkar
+- Sharvari Chambavane
   
