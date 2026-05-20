@@ -1,11 +1,98 @@
-Traffic Violation System for Two-wheelers using Computer Vision.
+# 🚦 Traffic Violation Detection System for Two-Wheelers
 
-This project is a Traffic Violation Detection System for Two-Wheelers developed using OpenCV, YOLOv5, and EasyOCR. It aims to automatically identify common traffic violations committed by two-wheeler riders using computer vision techniques. The system is capable of:
+## 📌 Project Overview
+This project is an **AI-powered Traffic Violation Detection System** designed for **two-wheelers** using **Computer Vision and Deep Learning**.
 
-🚫 Helmet Detection – Identifies riders not wearing helmets.
+It automatically detects:
+- ❌ Helmet Violation  
+- 👨‍👩‍👧 Triple Riding  
+- 🔍 Number Plate Detection & Recognition  
 
-👥 Triple Seat Detection – Detects if more than two people are riding on a two-wheeler.
+This helps reduce manual monitoring and improves road safety.
 
-🔍 Number Plate Detection and Recognition – Locates number plates and extracts vehicle numbers using OCR.
+---
 
-The goal is to assist traffic authorities in enforcing safety regulations and reducing manual surveillance by automating the violation detection process from images or video footage.
+## 🎯 Objectives
+- 🚀 Automate traffic rule enforcement  
+- 🛣️ Improve road safety  
+- 📸 Detect violations from images/videos  
+- 🔢 Extract number plate details  
+
+---
+
+## 🛠️ Tech Stack
+
+### 💻 Languages
+- Python  
+- HTML, CSS  
+
+### 🤖 Technologies
+- OpenCV  
+- YOLOv5  
+- EasyOCR  
+- Django  
+
+---
+
+## ⚙️ System Architecture
+
+1️⃣ Upload Image / Video  
+2️⃣ Backend processes input  
+3️⃣ Detection Modules:
+   - Helmet Detection  
+   - Triple Seat Detection  
+   - Number Plate Detection  
+4️⃣ OCR extracts number  
+5️⃣ Results shown on dashboard  
+
+---
+
+## 🚀 Features
+
+### 🪖 Helmet Detection
+Detects whether rider is wearing helmet or not.
+
+### 👨‍👩‍👧 Triple Seat Detection
+Detects more than 2 people on bike.
+
+### 🔢 Number Plate Recognition
+- Detects plate  
+- Extracts text using OCR  
+
+### 📊 Dashboard
+- Clean UI  
+- Displays results  
+- Upload functionality  
+
+---
+
+
+---
+
+## 🧠 Model Details
+
+### 🔍 YOLOv5
+- Object Detection Model  
+- Detects person, helmet, plate  
+
+### 🔤 EasyOCR
+- Extracts text from number plate  
+
+---
+
+## 📸 Input & Output
+
+### 📥 Input
+- Image / Video  
+
+### 📤 Output
+- Helmet Status ✅/❌  
+- Number of Persons  
+- Number Plate  
+- Extracted Text  
+
+---
+
+### 👩‍💻 Contributor
+- Janhavi Deshmukh
+  
